@@ -1,0 +1,43 @@
+body {
+    margin: 10px;
+}
+
+.top {
+    color: white;
+    background: #3c88a6;
+    box-sizing: border-box;
+    height: 200px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bigmid {
+    display: flex;
+    height: 200px;
+    margin: 10px 0 10px 0;
+    column-gap: 10px;
+
+}
+
+.medium {
+    width: 600px;
+    background: #25577c;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    color: white;
+    background: #3c88a6;
+    box-sizing: border-box;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 600px;
+}
