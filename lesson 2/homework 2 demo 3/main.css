@@ -11,8 +11,8 @@ body{
 
 }
 .img{
-    margin: 50px 30px 10px 30px;
     display: flex;
+    padding-top: 80px;
     align-items: center;
 }
 
