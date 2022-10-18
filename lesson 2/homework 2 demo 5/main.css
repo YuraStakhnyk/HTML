@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background: #60b3e5;
+}
+
+.father{
+    box-sizing: border-box;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.box{
+    height: 150px;
+    width: 600px;
+    background: #f6f7ff;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-pen-to-square{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-code{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-code-commit{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-file-word{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-envelope{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-at{
+    font-size: 50px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+.box1{
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    width: 150px;
+    margin: 0%;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.para{
+    font-size: 25px;
+    text-align: start;
+    color: #f1a04b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Book Antiqua";
+}
+
+.text{
+    font-size: 15px;
+    text-align: start;
+    color: rgba(154,155,154,0.71);
+    font-family: Arial;
+}
