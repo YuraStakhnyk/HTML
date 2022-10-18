@@ -1,0 +1,43 @@
+body{
+    margin: 0 0 5600px 0;
+}
+
+.father{
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 70px 0 0 0;
+    font-size: 25px;
+
+}
+
+.text{
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+}
+
+.child{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.baby{
+    border: 1px solid rgb(0, 0, 0);
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
