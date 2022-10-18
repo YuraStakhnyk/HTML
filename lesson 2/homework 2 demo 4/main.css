@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.father {
+    box-sizing: border-box;
+    margin: 40;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Marlett;
+    color: #bfbabe;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: #cfcace 2px 3px 5px;
+}
+
+.fa-star {
+    font-size: 30px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-location-dot {
+    font-size: 30px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-fire-flame-curved {
+    font-size: 30px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.fa-earth-americas {
+    font-size: 30px;
+    color: rgba(140, 140, 137, 0.61);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.serv {
+    font-size: 25px;
+    text-align: center;
+    color: #a82a25;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(140, 140, 137, 0.69);
+    margin: 20px 20px;
+
+}
+
+.bottom {
+    font-size: 20px;
+    background: #5fd5a4;
+    color: #f3faff;
+    text-align: center;
+    margin: 60px 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
