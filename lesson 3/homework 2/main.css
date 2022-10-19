@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.father {
+    box-sizing: border-box;
+    margin: 80px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    position: relative;
+    top: -45px;
+    z-index: 1;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-cloud {
+    font-size: 30px;
+    color: #ff8e4a;
+    z-index: 2;
+}
+
+.fa-user {
+    font-size: 30px;
+    color: #ff8e4a;
+    z-index: 2;
+}
+
+.fa-house {
+    font-size: 30px;
+    color: #ff8e4a;
+    z-index: 2;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-size: 25px;
+    font-family: "Cambria Math";
+}
+
+.text {
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    color: rgba(0, 0, 0, 0.41);
+    font-family: "Book Antiqua";
+}
+
+.child {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.baby {
+    border: 1px solid rgb(0, 0, 0);
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
